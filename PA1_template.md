@@ -203,6 +203,6 @@ library(ggplot2)
 ggplot(data = weekdaycomp, aes(x = interval, y = steps, fill = type)) + facet_grid(type ~ . ) + geom_line()+ ggtitle ("Comparison on 5 Minute Interval Activity between Weekday and Weekend")
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-7-1.png)
+![](PA1_template_files/figure-markdown_github/Comparison_Weekday_Weekend-1.png)
 
 On weekdays, there are more steps in the early of the day and less during the rest of the day. On weekends,comparing to the weekdays, there are less steps in the morning, but the number of steps are generally higher than the ones at the same time during rest of the day. It appears that during weekends, the testers start the day later than they do on the weekdays, and they are more active later on. It may be because on the weekdays early morning, the testers have to go to work early; while on the weekend, the testers start the day later. And, they have more chance to move around during the day; while on the weekdays they have to sit down and work.
