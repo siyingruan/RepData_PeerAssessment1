@@ -1,8 +1,10 @@
 ---
 title: "PA1_template.Rmd"
 author: "Siying Ruan"
-date: "September 29, 2018"
+date: "September 30, 2018"
 output: html_document
+    #md_document:
+      #variant: markdown_github
 ---
 
 ```{r setup, include=FALSE}
